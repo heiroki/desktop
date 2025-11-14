@@ -51,7 +51,7 @@ jobs:
   #       working-directory: ./backend
   #       env:
   #         PYTHONPATH: .
-  #         DATABASE_URL: postgresql://myuser:postgres@localhost:15432/project_mc
+  #         DATABASE_URL: postgresql://myuser:postgres@localhost:15432/project
   #       run: pytest -v
 
   flutter-lint:

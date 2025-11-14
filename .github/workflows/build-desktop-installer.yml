@@ -22,7 +22,7 @@ jobs:
         run: |
           mkdir -p backend/models
           curl -L -o backend/models/gemma-2-2b-jpn-it-Q4_K_M.gguf \
-             https://github.com/DDI-Project/PROJECT_MC_Kinose/releases/download/model-v1.0/gemma-2-2b-jpn-it-Q4_K_M.gguf
+             https://github.com/heiroki/desktop/releases/download/model-v1.0/gemma-2-2b-jpn-it-Q4_K_M.gguf
       
       # ========================================
       # Python + PyInstaller (バックエンドexe化)
