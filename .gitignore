@@ -1,0 +1,64 @@
+# ================================
+# Python/FastAPI Backend  
+# ================================
+backend/__pycache__/
+backend/*.py[cod]
+backend/env/
+backend/venv/
+backend/.venv/
+backend/.env
+backend/.env.local
+
+# AI Model Files_251009add
+backend/models/*.gguf
+
+# Global Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ================================
+# Flutter Frontend (Web Focus)
+# ================================
+
+# Dart/Flutter Core
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+
+
+# Platform-specific (Build artifacts only)
+frontend/*/build/
+frontend/*/Flutter/
+frontend/*/.gradle/
+frontend/*/Pods/
+
+# ================================
+# Development Environment
+# ================================
+
+# IDE
+.idea/
+.vscode/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+docker-compose.override.yml
+
+# OS-specific
+.DS_Store
+._*
+Thumbs.db
+
+# Temporary files  
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
